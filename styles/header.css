@@ -19,6 +19,14 @@
     align-items: center;
 }
 
-.container-img{
+.container-img {
     padding: 1em;
 }
+     
+ .lista-menu{
+    display: none;
+ }
+
+ .container-botao :checked ~.lista-menu { 
+      display: block;
+ }
